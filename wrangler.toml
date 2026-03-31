@@ -1,0 +1,11 @@
+# Cloudflare Pages — Wrangler configuration
+name = "lucy-studio"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "dist"
+
+[env.production.vars]
+# Add any non-secret environment vars here
+# Secrets (like API keys) should be set via Cloudflare Dashboard > Pages > Settings > Environment Variables
+
+[env.preview.vars]
+# Same as production but for preview deployments
